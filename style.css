@@ -19,10 +19,14 @@ header {
     align-items: center;
 }
 
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
 .menu {
     position: relative;
     right: 10px;
-    display: inline-flex;
     text-decoration: underline;
     margin: 10px;
     flex-wrap: wrap;
