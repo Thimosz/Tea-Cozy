@@ -1,5 +1,6 @@
 header {
     background-color: black;
+    position: relative;
     color: seashell;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +17,24 @@ body {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.9;    
+}
+
+.menu {
+    position: absolute;
+    right: 10px;
+    display: inline-flex;
+    text-decoration: underline;
+}
+
+.menu p {
+    margin-right: 20px;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-color: sienna;
+    
 }
 
 #logo {
