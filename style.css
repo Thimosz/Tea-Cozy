@@ -1,3 +1,11 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;    
+}
+
 header {
     background-color: black;
     position: relative;
@@ -11,33 +19,28 @@ header {
     align-items: center;
 }
 
-body {
-    background-color: black;
-    color: seashell;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.9;    
-}
-
 .menu {
-    position: absolute;
+    position: relative;
     right: 10px;
     display: inline-flex;
     text-decoration: underline;
+    margin: 10px;
+    flex-wrap: wrap;
 }
 
-.menu p {
-    margin-right: 20px;
-}
-
-#mission {
+.mission {
+    z-index: 10;
     height: 700px;
     width: 1200px;
-    background-color: sienna;
+    background-image: url("afbeeldingen\img-mission-background.webp");
+    background-color: bisque;
     
 }
 
 #logo {
     height: 50px;
     margin-left: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
 }
