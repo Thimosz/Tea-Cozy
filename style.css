@@ -1,44 +1,79 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    color:seashell;
     background-color: black;
-    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    font-family: Helvetica;
+
+}
+body {
+    margin: auto;
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.9;    
 }
 
 header {
     background-color: black;
-    position: relative;
-    color: seashell;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.9;
     height: 69px;
     border-bottom: 1px solid seashell;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
 }
 
-ul li {
-    list-style-type: none;
-    display: inline;
-}
-
-.menu {
-    position: relative;
-    right: 10px;
-    text-decoration: underline;
+header a {
     margin: 10px;
-    flex-wrap: wrap;
+}
+
+.nav {
+    position: relative;
+    color: seashell;
+}
+
+.main {
+    padding-top: 80px;
 }
 
 .mission {
-    z-index: 10;
+    width: 90%;
     height: 700px;
-    width: 1200px;
-    background-image: url("afbeeldingen\img-mission-background.webp");
-    background-color: bisque;
-    
+    width: 1200;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.month {
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.month #featuredtea {
+    padding-top: 20px;
+    width: 100%;
+}
+
+#image {
+    width: 1000px;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+#image img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
 }
 
 #logo {
@@ -48,3 +83,10 @@ ul li {
     display: inline-flex;
     justify-content: flex-start;
 }
+
+#featuredtea {
+    margin: auto;
+    padding-top: 20px;
+        
+}
+
