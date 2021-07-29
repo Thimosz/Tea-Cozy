@@ -11,11 +11,13 @@
 body {
     margin: auto;
     font-size: 22px;
+    max-width: 1200px;
 }
 
 header {
     background-color: black;
     height: 69px;
+    max-width: 1200px;
     border-bottom: 1px solid seashell;
     display: flex;
     align-items: center;
@@ -51,12 +53,14 @@ header a {
     justify-content: center;
     align-items: center;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: center;
 }
 
 .month {
     align-items: center;
     width: 1000px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .month #featuredtea {
@@ -66,14 +70,44 @@ header a {
 
 #image {
     width: 1000px;
-    display: inline-flex;
-    flex-flow: row wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #image img {
     height: 200px;
     width: 300px;
     margin: 10px;
+}
+
+.location {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    padding-top: 20px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-position: center;
+}
+
+.location{
+    margin-left: auto;
+    width: 90%;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.locbox{
+    margin: auto;
+    display: flex;
+}
+
+.locbox #adress {
+    width: 300px;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 5%;
 }
 
 #logo {
