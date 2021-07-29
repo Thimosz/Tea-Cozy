@@ -90,20 +90,12 @@ header a {
     background-position: center;
 }
 
-.location{
-    margin-left: auto;
-    width: 90%;
-    margin-bottom: 40px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
 .locbox{
     margin: auto;
     display: flex;
 }
 
-.locbox #adress {
+#adress {
     width: 300px;
     margin: 20px;
     justify-content: space-between;
